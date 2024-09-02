@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Main Website of IIC Amrita School of Computing" name="description">
+    <title>IIC - ASAS KOCHI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="./images/asas-icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./locomotive-scroll.css">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .object-cover {
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Top bar -->
+    <div id="sticky-banner"
+        class=" flex flex-wrap justify-between w-full p-2 border-b border-gray-200 bg-[#172554] mx-auto">
+        <div class="flex flex-col items-center mx-auto gap-4 md:flex-row">
+            <p class="flex items-center text-sm font-normal text-gray-100">
+                <span class="inline-flex p-1 me-3 rounded-full  w-6 h-6 items-center justify-center flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+                        <path
+                            d="M21 3C21.5523 3 22 3.44772 22 4V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V19H20V7.3L12 14.5L2 5.5V4C2 3.44772 2.44772 3 3 3H21ZM8 15V17H0V15H8ZM5 10V12H0V10H5ZM19.5659 5H4.43414L12 11.8093L19.5659 5Z">
+                        </path>
+                    </svg>
+                    <span class="sr-only">mail</span>
+                </span>
+                <span><a href="mailto:someone@outlook.com">someone@outlook.com</a></span>
+            </p>
+            <p class="flex items-center text-sm font-normal text-gray-100">
+                <span class="inline-flex p-1 me-3 rounded-full  w-6 h-6 items-center justify-center flex-shrink-0">
+                    <a href="https://www.instagram.com/iic.asas/" class="text-gray-500 hover:text-gray-900"
+                        target="_blank">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path fill="white" fill-rule="evenodd"
+                                d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    <span class="sr-only">contact phone</span>
+                </span>
+                <span>Instagram</span>
+            </p>
+        </div>
+    </div>
+
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white border-gray-200 sticky">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="https://www.amrita.edu/campus/kochi/" class="flex items-center space-x-3 rtl:space-x-reverse"
+                target="_blank">
+                <img src="./images/asas-logo.png" class="h-12" alt="Flowbite Logo" />
+            </a>
+            <a href="https://iic.mic.gov.in/" class="flex items-center space-x-3 rtl:space-x-reverse" target="_blank">
+                <img src="./images/IIC.png" class="h-16" alt="Flowbite Logo" />
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white ">
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-white bg-rose-900 rounded md:bg-transparent md:text-rose-900 md:p-0 "
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-rose-900 md:p-0 ">About</a>
+                    </li>
+                    <li>
+                        <a href="#team"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-rose-900 md:p-0 ">Team</a>
+                    </li>
+                    <li>
+                        <a href="#events"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-rose-900 md:p-0 ">Events</a>
+                    </li>
+                    <li>
+                        <a href="#contact"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-rose-900 md:p-0 ">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-white py-10 border-b border-blue-800" id="about">
+
+        <div class="bg-white py-5">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <div class="mx-auto max-w-2xl lg:text-center">
+                    <p class="heading mt-2 text-3xl font-bold tracking-tight text-[#831843] sm:text-4xl text-center">
+                        Savishkaara'24
+                    </p>
+                </div>
+
+
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+                    <div class="relative w-full h-72 overflow-hidden">
+                        <img class="absolute inset-0 object-cover w-full h-full rounded-lg" src="./images/events/saavishkaara24(1).jpeg" alt="">
+                    </div>
+                    <div class="relative w-full h-72 overflow-hidden">
+                        <img class="absolute inset-0 object-cover w-full h-full rounded-lg" src="./images/events/savishkaara24(2).jpeg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <footer class="bg-white">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="https://www.amrita.edu/campus/kochi/" class="flex items-center" target="_blank">
+                        <img src="./images/asas-logo.png" class="h-12 me-3" alt="FlowBite Logo" />
+                    </a>
+                    <p class="mt-4">Edappally North, Amrita Nagar,<br> Brahmasthanam, Kochi, Ernakulam, Kerala 682024
+                    </p>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Useful Links</h2>
+                        <ul class="text-gray-500 font-medium">
+                            <li>
+                                <a href="https://iic.mic.gov.in/" class="hover:underline" target="_blank">MoE - IIC</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <span class="text-sm text-gray-900 sm:text-center">Designed by IIC Tech Team at Amrita
+                    </span>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-800 sm:mx-auto  lg:my-8" />
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">&copy; Copyright - <a
+                        href="https://www.amrita.edu/campus/kochi/" class="hover:underline">Amrita Vishwa Vidyapeetham
+                        Kochi Campus</a>. All Rights Reserved.
+                </span>
+                <div class="flex mt-4 sm:justify-center sm:mt-0">
+                    <a href="https://www.instagram.com/iic.asas/" class="text-gray-500 hover:text-gray-900"
+                        target="_blank">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path fill="black" fill-rule="evenodd"
+                                d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        <span class="sr-only">Intragram page</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
